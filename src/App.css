@@ -1,0 +1,44 @@
+textarea {
+  width: 650px !important;
+  height: 684px;
+}
+
+ul {
+  list-style: none !important;
+  padding: 0px !important;
+  padding-left: 20px !important;
+}
+
+li {
+  list-style: none !important;
+  padding: 0px !important;
+  padding-left: 10px !important;
+}
+
+.json-container .null {
+  color: #999;
+}
+
+.json-container .string {
+  color: #4e9a06;
+}
+
+.json-container .number {
+  color: #a40000;
+}
+
+.json-container .boolean {
+  color: #c4a000;
+}
+
+.json-container .key {
+  color: #204a87;
+}
+
+li::marker {
+  content: "▶ ";
+}
+
+ul li::marker {
+  content: "";
+}
